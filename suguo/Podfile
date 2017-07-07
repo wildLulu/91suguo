@@ -1,0 +1,17 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'suguo' do
+  pod 'UITableView+FDTemplateLayoutCell'
+  pod 'SVProgressHUD'
+  pod 'AFNetworking'
+  pod 'Masonry'
+  pod 'YYModel'
+  pod 'IQKeyboardManager'
+  pod 'MJRefresh'
+  pod 'SDWebImage'
+  pod 'SDCycleScrollView','~>1.62'
+  pod 'WZLBadge'
+  pod 'NSDate+TimeAgo'
+  pod 'DKNightVersion'
+end

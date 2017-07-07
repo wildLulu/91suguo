@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="L_EditHeaderViewController">
+            <connections>
+                <outlet property="cancelBtn" destination="Kq8-yu-meW" id="K2W-bh-6cp"/>
+                <outlet property="imageViewheader" destination="kuk-g6-Mvv" id="imm-be-bT8"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleAspectFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kuk-g6-Mvv">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="414"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="kuk-g6-Mvv" secondAttribute="height" multiplier="1:1" id="PQp-GV-RiH"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b4S-FC-Aql">
+                    <rect key="frame" x="20" y="439" width="374" height="44"/>
+                    <color key="backgroundColor" red="0.070588235289999995" green="0.37254901959999998" blue="0.65490196079999996" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="WnG-Gc-vTt"/>
+                    </constraints>
+                    <state key="normal" title="更换头像">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="editBtnClick:" destination="-1" eventType="touchUpInside" id="nxD-3S-RGe"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kq8-yu-meW">
+                    <rect key="frame" x="20" y="508" width="374" height="44"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="wZM-7C-SNg"/>
+                    </constraints>
+                    <state key="normal" title="取消">
+                        <color key="titleColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="cancelBtnClick:" destination="-1" eventType="touchUpInside" id="LiL-0p-HM0"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="kuk-g6-Mvv" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="2iV-2o-cay"/>
+                <constraint firstItem="Kq8-yu-meW" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="4iW-Os-72k"/>
+                <constraint firstAttribute="trailing" secondItem="b4S-FC-Aql" secondAttribute="trailing" constant="20" id="8Ww-Y4-QxU"/>
+                <constraint firstAttribute="trailing" secondItem="Kq8-yu-meW" secondAttribute="trailing" constant="20" id="AqP-kb-XG8"/>
+                <constraint firstItem="kuk-g6-Mvv" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Ed1-s7-N8u"/>
+                <constraint firstAttribute="trailing" secondItem="kuk-g6-Mvv" secondAttribute="trailing" id="Y3R-UT-w1v"/>
+                <constraint firstItem="Kq8-yu-meW" firstAttribute="top" secondItem="b4S-FC-Aql" secondAttribute="bottom" constant="25" id="nFO-uL-W4r"/>
+                <constraint firstItem="b4S-FC-Aql" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="pXc-BK-jNs"/>
+                <constraint firstItem="b4S-FC-Aql" firstAttribute="top" secondItem="kuk-g6-Mvv" secondAttribute="bottom" constant="25" id="rBQ-Zb-xwF"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

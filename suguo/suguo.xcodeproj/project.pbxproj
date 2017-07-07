@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E02C9C040333FEF75AB6CDF1 /* libPods-suguo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE3D5D8F92411FAEAE831A6 /* libPods-suguo.a */; };
+		E86765C21F0CE3900004B4A0 /* L_EditHeaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E86765B91F0CE3900004B4A0 /* L_EditHeaderViewController.m */; };
+		E86765C31F0CE3900004B4A0 /* L_EditHeaderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E86765BA1F0CE3900004B4A0 /* L_EditHeaderViewController.xib */; };
+		E86765C41F0CE3900004B4A0 /* L_EditPersonInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E86765BC1F0CE3900004B4A0 /* L_EditPersonInfoVC.m */; };
+		E86765C51F0CE3900004B4A0 /* L_EditPersonInfoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E86765BD1F0CE3900004B4A0 /* L_EditPersonInfoVC.xib */; };
+		E86765C61F0CE3900004B4A0 /* L_PersonDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E86765BF1F0CE3900004B4A0 /* L_PersonDetailVC.m */; };
+		E86765C71F0CE3900004B4A0 /* L_PersonDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E86765C01F0CE3900004B4A0 /* L_PersonDetailVC.xib */; };
+		E86765CF1F0CE4080004B4A0 /* L_MessageCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = E86765CD1F0CE4080004B4A0 /* L_MessageCenter.m */; };
+		E86765D41F0CE41A0004B4A0 /* L_MessageCenterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E86765D21F0CE41A0004B4A0 /* L_MessageCenterCell.m */; };
+		E86765D51F0CE41A0004B4A0 /* L_MessageCenterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E86765D31F0CE41A0004B4A0 /* L_MessageCenterCell.xib */; };
+		E890D2311F0C98DC001BDA51 /* L_PlanCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E890D22B1F0C98DC001BDA51 /* L_PlanCell.m */; };
+		E890D2321F0C98DC001BDA51 /* L_PlanCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E890D22C1F0C98DC001BDA51 /* L_PlanCell.xib */; };
+		E890D2331F0C98DC001BDA51 /* L_PlanVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E890D22F1F0C98DC001BDA51 /* L_PlanVC.m */; };
+		E890D23D1F0C990A001BDA51 /* L_CourseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E890D2371F0C990A001BDA51 /* L_CourseCell.m */; };
+		E890D23E1F0C990A001BDA51 /* L_CourseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E890D2381F0C990A001BDA51 /* L_CourseCell.xib */; };
+		E890D23F1F0C990A001BDA51 /* L_CourseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E890D23B1F0C990A001BDA51 /* L_CourseVC.m */; };
+		E890D2401F0C990A001BDA51 /* L_CourseVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E890D23C1F0C990A001BDA51 /* L_CourseVC.xib */; };
+		E890D2451F0C9922001BDA51 /* L_MineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E890D2431F0C9922001BDA51 /* L_MineVC.m */; };
+		E890D2461F0C9922001BDA51 /* L_MineVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E890D2441F0C9922001BDA51 /* L_MineVC.xib */; };
+		E8D2927A1F0B7A540000C266 /* LDXScore.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D292791F0B7A540000C266 /* LDXScore.m */; };
+		E8D2D8C31F09F08E00543E98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D2D8C21F09F08E00543E98 /* main.m */; };
+		E8D2D8C61F09F08E00543E98 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D2D8C51F09F08E00543E98 /* AppDelegate.m */; };
+		E8D2D8C91F09F08E00543E98 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D2D8C81F09F08E00543E98 /* ViewController.m */; };
+		E8D2D8CC1F09F08E00543E98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8D2D8CA1F09F08E00543E98 /* Main.storyboard */; };
+		E8D2D8CE1F09F08E00543E98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8D2D8CD1F09F08E00543E98 /* Assets.xcassets */; };
+		E8D2D8D11F09F08E00543E98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8D2D8CF1F09F08E00543E98 /* LaunchScreen.storyboard */; };
+		E8FB47101F0A11DA00C92562 /* L_91BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E8FB470F1F0A11DA00C92562 /* L_91BaseVC.m */; };
+		E8FB47321F0A125C00C92562 /* L_Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = E8FB47231F0A125C00C92562 /* L_Tool.m */; };
+		E8FB47381F0A12B100C92562 /* L_QuestionBankVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E8FB47361F0A12B100C92562 /* L_QuestionBankVC.m */; };
+		E8FB47391F0A12B100C92562 /* L_QuestionBankVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8FB47371F0A12B100C92562 /* L_QuestionBankVC.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6EE3D5D8F92411FAEAE831A6 /* libPods-suguo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-suguo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C24327D82699059DD8072CDA /* Pods-suguo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-suguo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-suguo/Pods-suguo.debug.xcconfig"; sourceTree = "<group>"; };
+		E86765B81F0CE3900004B4A0 /* L_EditHeaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L_EditHeaderViewController.h; sourceTree = "<group>"; };
+		E86765B91F0CE3900004B4A0 /* L_EditHeaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L_EditHeaderViewController.m; sourceTree = "<group>"; };
+		E86765BA1F0CE3900004B4A0 /* L_EditHeaderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = L_EditHeaderViewController.xib; sourceTree = "<group>"; };
+		E86765BB1F0CE3900004B4A0 /* L_EditPersonInfoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L_EditPersonInfoVC.h; sourceTree = "<group>"; };
+		E86765BC1F0CE3900004B4A0 /* L_EditPersonInfoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L_EditPersonInfoVC.m; sourceTree = "<group>"; };
+		E86765BD1F0CE3900004B4A0 /* L_EditPersonInfoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = L_EditPersonInfoVC.xib; sourceTree = "<group>"; };
+		E86765BE1F0CE3900004B4A0 /* L_PersonDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L_PersonDetailVC.h; sourceTree = "<group>"; };
+		E86765BF1F0CE3900004B4A0 /* L_PersonDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L_PersonDetailVC.m; sourceTree = "<group>"; };
+		E86765C01F0CE3900004B4A0 /* L_PersonDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = L_PersonDetailVC.xib; sourceTree = "<group>"; };
+		E86765CC1F0CE4080004B4A0 /* L_MessageCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L_MessageCenter.h; sourceTree = "<group>"; };
+		E86765CD1F0CE4080004B4A0 /* L_MessageCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L_MessageCenter.m; sourceTree = "<group>"; };
+		E86765D11F0CE41A0004B4A0 /* L_MessageCenterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L_MessageCenterCell.h; sourceTree = "<group>"; };
+		E86765D21F0CE41A0004B4A0 /* L_MessageCenterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L_MessageCenterCell.m; sourceTree = "<group>"; };
+		E86765D31F0CE41A0004B4A0 /* L_MessageCenterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = L_MessageCenterCell.xib; sourceTree = "<group>"; };
+		E890D22A1F0C98DC001BDA51 /* L_PlanCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L_PlanCell.h; sourceTree = "<group>"; };
+		E890D22B1F0C98DC001BDA51 /* L_PlanCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L_PlanCell.m; sourceTree = "<group>"; };
+		E890D22C1F0C98DC001BDA51 /* L_PlanCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = L_PlanCell.xib; sourceTree = "<group>"; };
+		E890D22E1F0C98DC001BDA51 /* L_PlanVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L_PlanVC.h; sourceTree = "<group>"; };
+		E890D22F1F0C98DC001BDA51 /* L_PlanVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L_PlanVC.m; sourceTree = "<group>"; };
+		E890D2361F0C990A001BDA51 /* L_CourseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L_CourseCell.h; sourceTree = "<group>"; };
+		E890D2371F0C990A001BDA51 /* L_CourseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L_CourseCell.m; sourceTree = "<group>"; };
+		E890D2381F0C990A001BDA51 /* L_CourseCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = L_CourseCell.xib; sourceTree = "<group>"; };
+		E890D23A1F0C990A001BDA51 /* L_CourseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L_CourseVC.h; sourceTree = "<group>"; };
+		E890D23B1F0C990A001BDA51 /* L_CourseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L_CourseVC.m; sourceTree = "<group>"; };
+		E890D23C1F0C990A001BDA51 /* L_CourseVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = L_CourseVC.xib; sourceTree = "<group>"; };
+		E890D2421F0C9922001BDA51 /* L_MineVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L_MineVC.h; sourceTree = "<group>"; };
+		E890D2431F0C9922001BDA51 /* L_MineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L_MineVC.m; sourceTree = "<group>"; };
+		E890D2441F0C9922001BDA51 /* L_MineVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = L_MineVC.xib; sourceTree = "<group>"; };
+		E8D292781F0B7A540000C266 /* LDXScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDXScore.h; sourceTree = "<group>"; };
+		E8D292791F0B7A540000C266 /* LDXScore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDXScore.m; sourceTree = "<group>"; };
+		E8D2D8BE1F09F08E00543E98 /* suguo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = suguo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8D2D8C21F09F08E00543E98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E8D2D8C41F09F08E00543E98 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E8D2D8C51F09F08E00543E98 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E8D2D8C71F09F08E00543E98 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E8D2D8C81F09F08E00543E98 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E8D2D8CB1F09F08E00543E98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8D2D8CD1F09F08E00543E98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8D2D8D01F09F08E00543E98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E8D2D8D21F09F08E00543E98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8FB470E1F0A11DA00C92562 /* L_91BaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L_91BaseVC.h; sourceTree = "<group>"; };
+		E8FB470F1F0A11DA00C92562 /* L_91BaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L_91BaseVC.m; sourceTree = "<group>"; };
+		E8FB47221F0A125C00C92562 /* L_Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L_Tool.h; sourceTree = "<group>"; };
+		E8FB47231F0A125C00C92562 /* L_Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L_Tool.m; sourceTree = "<group>"; };
+		E8FB47351F0A12B100C92562 /* L_QuestionBankVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L_QuestionBankVC.h; sourceTree = "<group>"; };
+		E8FB47361F0A12B100C92562 /* L_QuestionBankVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L_QuestionBankVC.m; sourceTree = "<group>"; };
+		E8FB47371F0A12B100C92562 /* L_QuestionBankVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = L_QuestionBankVC.xib; sourceTree = "<group>"; };
+		E8FB47491F0A141B00C92562 /* 91.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 91.pch; sourceTree = "<group>"; };
+		F339638B86EF2E23698CE837 /* Pods-suguo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-suguo.release.xcconfig"; path = "Pods/Target Support Files/Pods-suguo/Pods-suguo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8D2D8BB1F09F08E00543E98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E02C9C040333FEF75AB6CDF1 /* libPods-suguo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D822AA151C97139687AD356 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EE3D5D8F92411FAEAE831A6 /* libPods-suguo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C09019656574311AB9F5C28E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C24327D82699059DD8072CDA /* Pods-suguo.debug.xcconfig */,
+				F339638B86EF2E23698CE837 /* Pods-suguo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E86765B71F0CE3900004B4A0 /* 个人中心 */ = {
+			isa = PBXGroup;
+			children = (
+				E86765B81F0CE3900004B4A0 /* L_EditHeaderViewController.h */,
+				E86765B91F0CE3900004B4A0 /* L_EditHeaderViewController.m */,
+				E86765BA1F0CE3900004B4A0 /* L_EditHeaderViewController.xib */,
+				E86765BB1F0CE3900004B4A0 /* L_EditPersonInfoVC.h */,
+				E86765BC1F0CE3900004B4A0 /* L_EditPersonInfoVC.m */,
+				E86765BD1F0CE3900004B4A0 /* L_EditPersonInfoVC.xib */,
+				E86765BE1F0CE3900004B4A0 /* L_PersonDetailVC.h */,
+				E86765BF1F0CE3900004B4A0 /* L_PersonDetailVC.m */,
+				E86765C01F0CE3900004B4A0 /* L_PersonDetailVC.xib */,
+			);
+			path = "个人中心";
+			sourceTree = "<group>";
+		};
+		E86765C11F0CE3900004B4A0 /* 消息中心 */ = {
+			isa = PBXGroup;
+			children = (
+				E86765CC1F0CE4080004B4A0 /* L_MessageCenter.h */,
+				E86765CD1F0CE4080004B4A0 /* L_MessageCenter.m */,
+			);
+			path = "消息中心";
+			sourceTree = "<group>";
+		};
+		E86765CA1F0CE3EE0004B4A0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E86765CB1F0CE3EE0004B4A0 /* 消息中心 */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		E86765CB1F0CE3EE0004B4A0 /* 消息中心 */ = {
+			isa = PBXGroup;
+			children = (
+				E86765D11F0CE41A0004B4A0 /* L_MessageCenterCell.h */,
+				E86765D21F0CE41A0004B4A0 /* L_MessageCenterCell.m */,
+				E86765D31F0CE41A0004B4A0 /* L_MessageCenterCell.xib */,
+			);
+			path = "消息中心";
+			sourceTree = "<group>";
+		};
+		E890D2291F0C98DC001BDA51 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E890D22A1F0C98DC001BDA51 /* L_PlanCell.h */,
+				E890D22B1F0C98DC001BDA51 /* L_PlanCell.m */,
+				E890D22C1F0C98DC001BDA51 /* L_PlanCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		E890D22D1F0C98DC001BDA51 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E890D22E1F0C98DC001BDA51 /* L_PlanVC.h */,
+				E890D22F1F0C98DC001BDA51 /* L_PlanVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E890D2351F0C990A001BDA51 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E890D2361F0C990A001BDA51 /* L_CourseCell.h */,
+				E890D2371F0C990A001BDA51 /* L_CourseCell.m */,
+				E890D2381F0C990A001BDA51 /* L_CourseCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		E890D2391F0C990A001BDA51 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E890D23A1F0C990A001BDA51 /* L_CourseVC.h */,
+				E890D23B1F0C990A001BDA51 /* L_CourseVC.m */,
+				E890D23C1F0C990A001BDA51 /* L_CourseVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E890D2411F0C9922001BDA51 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E890D2421F0C9922001BDA51 /* L_MineVC.h */,
+				E890D2431F0C9922001BDA51 /* L_MineVC.m */,
+				E890D2441F0C9922001BDA51 /* L_MineVC.xib */,
+				E86765B71F0CE3900004B4A0 /* 个人中心 */,
+				E86765C11F0CE3900004B4A0 /* 消息中心 */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E8D2D8B51F09F08E00543E98 = {
+			isa = PBXGroup;
+			children = (
+				E8D2D8C01F09F08E00543E98 /* suguo */,
+				E8D2D8BF1F09F08E00543E98 /* Products */,
+				C09019656574311AB9F5C28E /* Pods */,
+				8D822AA151C97139687AD356 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E8D2D8BF1F09F08E00543E98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8D2D8BE1F09F08E00543E98 /* suguo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8D2D8C01F09F08E00543E98 /* suguo */ = {
+			isa = PBXGroup;
+			children = (
+				E8D2D8C41F09F08E00543E98 /* AppDelegate.h */,
+				E8D2D8C51F09F08E00543E98 /* AppDelegate.m */,
+				E8D2D8C71F09F08E00543E98 /* ViewController.h */,
+				E8D2D8C81F09F08E00543E98 /* ViewController.m */,
+				E8FB470E1F0A11DA00C92562 /* L_91BaseVC.h */,
+				E8FB470F1F0A11DA00C92562 /* L_91BaseVC.m */,
+				E8D2D8CA1F09F08E00543E98 /* Main.storyboard */,
+				E8D2D8CD1F09F08E00543E98 /* Assets.xcassets */,
+				E8D2D8CF1F09F08E00543E98 /* LaunchScreen.storyboard */,
+				E8D2D8D21F09F08E00543E98 /* Info.plist */,
+				E8FB470A1F0A116100C92562 /* 登录注册 */,
+				E8FB470C1F0A116100C92562 /* 题库 */,
+				E8FB470B1F0A116100C92562 /* 课程 */,
+				E8FB47091F0A116100C92562 /* 备考专区 */,
+				E8FB470D1F0A116100C92562 /* 我的 */,
+				E8FB47111F0A125C00C92562 /* Common */,
+				E8D2D8C11F09F08E00543E98 /* Supporting Files */,
+			);
+			path = suguo;
+			sourceTree = "<group>";
+		};
+		E8D2D8C11F09F08E00543E98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8D2D8C21F09F08E00543E98 /* main.m */,
+				E8FB47491F0A141B00C92562 /* 91.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E8FB47091F0A116100C92562 /* 备考专区 */ = {
+			isa = PBXGroup;
+			children = (
+				E890D22D1F0C98DC001BDA51 /* Controller */,
+				E890D2291F0C98DC001BDA51 /* Cell */,
+			);
+			path = "备考专区";
+			sourceTree = "<group>";
+		};
+		E8FB470A1F0A116100C92562 /* 登录注册 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "登录注册";
+			sourceTree = "<group>";
+		};
+		E8FB470B1F0A116100C92562 /* 课程 */ = {
+			isa = PBXGroup;
+			children = (
+				E890D2351F0C990A001BDA51 /* Cell */,
+				E890D2391F0C990A001BDA51 /* Controller */,
+			);
+			path = "课程";
+			sourceTree = "<group>";
+		};
+		E8FB470C1F0A116100C92562 /* 题库 */ = {
+			isa = PBXGroup;
+			children = (
+				E8FB47351F0A12B100C92562 /* L_QuestionBankVC.h */,
+				E8FB47361F0A12B100C92562 /* L_QuestionBankVC.m */,
+				E8FB47371F0A12B100C92562 /* L_QuestionBankVC.xib */,
+			);
+			path = "题库";
+			sourceTree = "<group>";
+		};
+		E8FB470D1F0A116100C92562 /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				E890D2411F0C9922001BDA51 /* Controller */,
+				E86765CA1F0CE3EE0004B4A0 /* Cell */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		E8FB47111F0A125C00C92562 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E8FB47221F0A125C00C92562 /* L_Tool.h */,
+				E8FB47231F0A125C00C92562 /* L_Tool.m */,
+				E8D292781F0B7A540000C266 /* LDXScore.h */,
+				E8D292791F0B7A540000C266 /* LDXScore.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8D2D8BD1F09F08E00543E98 /* suguo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8D2D8D51F09F08E00543E98 /* Build configuration list for PBXNativeTarget "suguo" */;
+			buildPhases = (
+				1E36E62F1A6086E1E2BEBF49 /* [CP] Check Pods Manifest.lock */,
+				E8D2D8BA1F09F08E00543E98 /* Sources */,
+				E8D2D8BB1F09F08E00543E98 /* Frameworks */,
+				E8D2D8BC1F09F08E00543E98 /* Resources */,
+				A151FD6070EB718944E30935 /* [CP] Embed Pods Frameworks */,
+				DFE1D65A584D4E4B695A4F80 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = suguo;
+			productName = suguo;
+			productReference = E8D2D8BE1F09F08E00543E98 /* suguo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8D2D8B61F09F08E00543E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = luhongyu;
+				TargetAttributes = {
+					E8D2D8BD1F09F08E00543E98 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = W8X759PLES;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E8D2D8B91F09F08E00543E98 /* Build configuration list for PBXProject "suguo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8D2D8B51F09F08E00543E98;
+			productRefGroup = E8D2D8BF1F09F08E00543E98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8D2D8BD1F09F08E00543E98 /* suguo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8D2D8BC1F09F08E00543E98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8D2D8D11F09F08E00543E98 /* LaunchScreen.storyboard in Resources */,
+				E8FB47391F0A12B100C92562 /* L_QuestionBankVC.xib in Resources */,
+				E890D2321F0C98DC001BDA51 /* L_PlanCell.xib in Resources */,
+				E86765C51F0CE3900004B4A0 /* L_EditPersonInfoVC.xib in Resources */,
+				E890D2461F0C9922001BDA51 /* L_MineVC.xib in Resources */,
+				E890D2401F0C990A001BDA51 /* L_CourseVC.xib in Resources */,
+				E86765C31F0CE3900004B4A0 /* L_EditHeaderViewController.xib in Resources */,
+				E890D23E1F0C990A001BDA51 /* L_CourseCell.xib in Resources */,
+				E86765D51F0CE41A0004B4A0 /* L_MessageCenterCell.xib in Resources */,
+				E8D2D8CE1F09F08E00543E98 /* Assets.xcassets in Resources */,
+				E8D2D8CC1F09F08E00543E98 /* Main.storyboard in Resources */,
+				E86765C71F0CE3900004B4A0 /* L_PersonDetailVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E36E62F1A6086E1E2BEBF49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A151FD6070EB718944E30935 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-suguo/Pods-suguo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFE1D65A584D4E4B695A4F80 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-suguo/Pods-suguo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8D2D8BA1F09F08E00543E98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E890D23F1F0C990A001BDA51 /* L_CourseVC.m in Sources */,
+				E890D2331F0C98DC001BDA51 /* L_PlanVC.m in Sources */,
+				E8FB47101F0A11DA00C92562 /* L_91BaseVC.m in Sources */,
+				E86765D41F0CE41A0004B4A0 /* L_MessageCenterCell.m in Sources */,
+				E8D2D8C91F09F08E00543E98 /* ViewController.m in Sources */,
+				E8D2D8C61F09F08E00543E98 /* AppDelegate.m in Sources */,
+				E890D2311F0C98DC001BDA51 /* L_PlanCell.m in Sources */,
+				E890D23D1F0C990A001BDA51 /* L_CourseCell.m in Sources */,
+				E8FB47321F0A125C00C92562 /* L_Tool.m in Sources */,
+				E86765C61F0CE3900004B4A0 /* L_PersonDetailVC.m in Sources */,
+				E8D2D8C31F09F08E00543E98 /* main.m in Sources */,
+				E8FB47381F0A12B100C92562 /* L_QuestionBankVC.m in Sources */,
+				E86765C21F0CE3900004B4A0 /* L_EditHeaderViewController.m in Sources */,
+				E890D2451F0C9922001BDA51 /* L_MineVC.m in Sources */,
+				E86765CF1F0CE4080004B4A0 /* L_MessageCenter.m in Sources */,
+				E86765C41F0CE3900004B4A0 /* L_EditPersonInfoVC.m in Sources */,
+				E8D2927A1F0B7A540000C266 /* LDXScore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E8D2D8CA1F09F08E00543E98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8D2D8CB1F09F08E00543E98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E8D2D8CF1F09F08E00543E98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8D2D8D01F09F08E00543E98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8D2D8D31F09F08E00543E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E8D2D8D41F09F08E00543E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8D2D8D61F09F08E00543E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C24327D82699059DD8072CDA /* Pods-suguo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = W8X759PLES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = suguo/91.pch;
+				INFOPLIST_FILE = suguo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.91suguo.suguo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E8D2D8D71F09F08E00543E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F339638B86EF2E23698CE837 /* Pods-suguo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = W8X759PLES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = suguo/91.pch;
+				INFOPLIST_FILE = suguo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.91suguo.suguo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8D2D8B91F09F08E00543E98 /* Build configuration list for PBXProject "suguo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8D2D8D31F09F08E00543E98 /* Debug */,
+				E8D2D8D41F09F08E00543E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8D2D8D51F09F08E00543E98 /* Build configuration list for PBXNativeTarget "suguo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8D2D8D61F09F08E00543E98 /* Debug */,
+				E8D2D8D71F09F08E00543E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8D2D8B61F09F08E00543E98 /* Project object */;
+}

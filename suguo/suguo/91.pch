@@ -1,0 +1,64 @@
+//
+//  PrefixHeader.pch
+//  repairSystem
+//
+//  Created by luhongyu on 17/3/29.
+//  Copyright © 2017年 luhongyu. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//RGB颜色
+#define RGBColor(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+// 颜色有关的宏定义
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+#define RGBColor_a(r, g, b, a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height
+
+#define SVSuccess [SVProgressHUD showSuccessWithStatus:nil]
+#define SVFaild [SVProgressHUD showErrorWithStatus:error.localizedDescription]
+#define SVDismiss [SVProgressHUD dismiss]
+#define SVWaiting [SVProgressHUD showWithStatus:@"请等候"]
+
+#define NavigationHeight 64
+#define TabbarHeight 49
+
+#define isStudent NO
+#define PAGESIZE 20
+
+#define kUSERLOGIN @"kUSERLOGIN"
+
+
+#define USER_DATA [[NSUserDefaults standardUserDefaults] objectForKey:@"USER_DATA"]
+
+// http://139.199.105.120:8080/swagger-ui.html
+
+
+#define SERVICE_ADDRESS @"http://182.140.221.108:2006/app"
+#define SERVICE_UPLOAD_ADDRESS @"http://182.140.221.108:2006"
+
+/*
+#define SERVICE_ADDRESS @"http://192.168.0.24:8080/app"
+#define SERVICE_UPLOAD_ADDRESS @"http://192.168.0.24:8080"
+*/
+
+#import <DKNightVersion/DKNightVersion.h>
+#import "L_Tool.h"
+#import <AFNetworking.h>
+#import <SVProgressHUD/SVProgressHUD.h>
+#import <YYModel.h>
+//#import "UIView+XMGExtension.h"
+#import <MJRefresh.h>
+#import "WZLBadgeImport.h"
+//#import "L_RepairKeyManager.h"
+//#import "RequestBase+Repair.h"
+#import "NSDate+TimeAgo.h"
+#import <UIImageView+WebCache.h>
+
+#endif /* PrefixHeader_pch */

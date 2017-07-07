@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="102" id="KGk-i7-Jjw" customClass="L_PlanCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="105"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="104.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LHA-3g-maN">
+                        <rect key="frame" x="204" y="19.5" width="102" height="66"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="102" id="Jxr-fd-J5h"/>
+                            <constraint firstAttribute="height" constant="66" id="cuW-lo-TWj"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="中华人民共和国司法部公告" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a10-Pq-Gb7">
+                        <rect key="frame" x="15" y="20" width="179" height="36"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="时间-小" translatesAutoresizingMaskIntoConstraints="NO" id="aal-hv-Bxw">
+                        <rect key="frame" x="15" y="75.5" width="10" height="10"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2017-09-09" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e8O-pa-dK6">
+                        <rect key="frame" x="30" y="72.5" width="69" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1234" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fjr-Lc-6Ub">
+                        <rect key="frame" x="155.5" y="73.5" width="28.5" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="预览" translatesAutoresizingMaskIntoConstraints="NO" id="tVs-vy-Bkr">
+                        <rect key="frame" x="138.5" y="76.5" width="12" height="8"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="LHA-3g-maN" firstAttribute="leading" secondItem="a10-Pq-Gb7" secondAttribute="trailing" constant="10" id="DZF-mv-kGH"/>
+                    <constraint firstAttribute="bottom" secondItem="LHA-3g-maN" secondAttribute="bottom" constant="18.5" id="Dgv-FL-ZU4"/>
+                    <constraint firstItem="LHA-3g-maN" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="EA8-nV-QHU"/>
+                    <constraint firstItem="a10-Pq-Gb7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="FQw-UL-2zp"/>
+                    <constraint firstItem="e8O-pa-dK6" firstAttribute="centerY" secondItem="aal-hv-Bxw" secondAttribute="centerY" constant="-1" id="SV9-DY-kND"/>
+                    <constraint firstItem="a10-Pq-Gb7" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="Spq-UN-FOz"/>
+                    <constraint firstItem="LHA-3g-maN" firstAttribute="leading" secondItem="fjr-Lc-6Ub" secondAttribute="trailing" constant="20" id="ZM5-tt-Khx"/>
+                    <constraint firstItem="LHA-3g-maN" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="19.5" id="ffU-Zu-Qqm"/>
+                    <constraint firstItem="fjr-Lc-6Ub" firstAttribute="leading" secondItem="tVs-vy-Bkr" secondAttribute="trailing" constant="5" id="fq4-6C-Nux"/>
+                    <constraint firstItem="LHA-3g-maN" firstAttribute="bottom" secondItem="aal-hv-Bxw" secondAttribute="bottom" id="h8T-70-oyJ"/>
+                    <constraint firstItem="tVs-vy-Bkr" firstAttribute="centerY" secondItem="aal-hv-Bxw" secondAttribute="centerY" id="iPz-yc-TFV"/>
+                    <constraint firstItem="aal-hv-Bxw" firstAttribute="leading" secondItem="a10-Pq-Gb7" secondAttribute="leading" id="iYK-Kv-VIr"/>
+                    <constraint firstItem="e8O-pa-dK6" firstAttribute="leading" secondItem="aal-hv-Bxw" secondAttribute="trailing" constant="5" id="oir-Bf-pSH"/>
+                    <constraint firstItem="fjr-Lc-6Ub" firstAttribute="centerY" secondItem="tVs-vy-Bkr" secondAttribute="centerY" id="vO4-B7-SLa"/>
+                    <constraint firstAttribute="trailing" secondItem="LHA-3g-maN" secondAttribute="trailing" constant="14" id="wmP-gx-jKj"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imageViewHeader" destination="LHA-3g-maN" id="XFY-qJ-keE"/>
+            </connections>
+            <point key="canvasLocation" x="32" y="143"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="时间-小" width="10" height="10"/>
+        <image name="预览" width="12" height="8"/>
+    </resources>
+</document>
